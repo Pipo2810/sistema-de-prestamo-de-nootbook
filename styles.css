@@ -72,7 +72,12 @@ body {
 .seccion.visible { display: block; }
 
 h1 { font-size: 36px; font-weight: 800; color: #111; }
-.subtitulo { color: #8a96a3; font-weight: 600; font-size: 15px; margin-bottom: 20px; }
+.subtitulo {
+  color: #4a5568;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
 
 .tarjeta {
   background: #fff;
@@ -98,13 +103,14 @@ input.error { border-color: #d32f2f; background: #fff3f3; }
 
 .btn-amarillo {
   display: block;
-  margin: 22px auto 0;
+  width: 100%;
+  margin: 24px auto 0;
   background: #ffd600;
-  border: none;
-  padding: 10px 30px;
+  border: 2px solid #111111;
+  padding: 14px 30px;
   border-radius: 30px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 .btn-amarillo:hover { background: #f5c800; }
@@ -130,8 +136,9 @@ input.error { border-color: #d32f2f; background: #fff3f3; }
   border-radius: 6px;
 }
 table { width: 100%; border-collapse: collapse; }
-thead th {
-  background: #8e9aa5;
+ thead th {
+  background: #222222;
+  color: #ffffff;
   padding: 12px;
   font-size: 14px;
   position: sticky;
